@@ -15,23 +15,32 @@ function NavbarComponent() {
     <div className="box-shadow">
       <Container>
         <Navbar expand="sm">
-          <Navbar.Brand href="/">Writers Arena</Navbar.Brand>
+          <Navbar.Brand style={{ color: "white" }}>Writers Arena</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end"></Navbar.Collapse>
           <div>
             <ul className="nav justify-content-end">
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a
+                  className="nav-link active"
+                  href="#"
+                  style={{ color: "white" }}
+                >
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a
+                  className="nav-link active"
+                  href="#"
+                  style={{ color: "white" }}
+                >
                   Pricing
                 </a>
               </li>
               <li>
                 <button
+                  style={{ color: "white" }}
                   type="button"
                   className="btn btn-outline-primary "
                   onClick={handleShow}
@@ -39,7 +48,10 @@ function NavbarComponent() {
                   ContactUs
                 </button>
                 <Modal show={show} onHide={handleClose}>
-                  <Modal.Header closeButton> Contact Us </Modal.Header>
+                  <Modal.Header closeButton style={{ color: "white" }}>
+                    {" "}
+                    Contact Us{" "}
+                  </Modal.Header>
                   <Modal.Body>
                     <p> {<ContactUs />}</p>
                   </Modal.Body>

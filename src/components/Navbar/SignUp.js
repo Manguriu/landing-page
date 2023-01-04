@@ -10,13 +10,15 @@ function SignUpComponent() {
   const handleShow = () => setshow(true);
 
   //   const PopupNotify = () => toast.success("SignUp success");
-  const SignInNotify = () => toast.success("succesfully Signed up Welcome");
+  const SignInNotify = () =>
+    toast.success("succesfully Signed up Welcome {Name}");
 
   return (
     <div>
       <Container>
         <li className="nav-item">
           <button
+            style={{ color: "white" }}
             onClick={handleShow}
             type="button"
             className="btn btn-outline-primary "

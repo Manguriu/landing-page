@@ -11,7 +11,7 @@ function ContactUs() {
 
   return (
     <>
-      <div className="card" style={cardStyle1}>
+      <div className="hcard" style={cardStyle1}>
         <div className="card-body">
           <h5 className="card-title"> Contact Us </h5>
           <p className="card-text"></p>
@@ -51,12 +51,6 @@ function ContactUs() {
                   <div className="invalid-feedback">Please Enter text</div>
                 </div>
               </form>
-              {/* <button type="button" className="btn btn-outline-primary">
-                Send
-              </button> */}
-              {/* <Popup trigger={<button> Send </button>} position="right center">
-                <div>Success</div>
-              </Popup> */}
               <div>
                 <button
                   className="btn btn-outline-primary"

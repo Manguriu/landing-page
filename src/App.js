@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./home/About";
 import Pricing from "./home/Pricing";
 import Home from "./home/Home";
-import FooterComponent from "./footer/Footer";
+// import FooterComponent from "./footer/Footer";
 import "./main.css";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
             <Route Path="Pricing" element={<Pricing />} />
           </Routes>
         </BrowserRouter>
-        <FooterComponent />
+        {/* <FooterComponent /> */}
       </div>
     </div>
   );

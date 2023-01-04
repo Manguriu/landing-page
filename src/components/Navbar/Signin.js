@@ -19,6 +19,7 @@ function SignInComponent() {
           <ul className="nav justify-content-end">
             <li className="nav-item">
               <button
+                style={{ color: "white" }}
                 onClick={handleShow}
                 type="button"
                 className="btn btn-outline-primary "

@@ -1,16 +1,16 @@
-import { Container } from "react-bootstrap";
-import ButtonComponent from "../button";
+// import ButtonComponent from "../button";
 import Pricing from "./Pricing";
 import About from "./About";
+// import "./home.css";
 function HomeComponent() {
   return (
-    <div>
+    <div className="Hhome">
       <div>
         <About />
       </div>
-      <div>
+      {/* <div>
         <ButtonComponent />
-      </div>
+      </div> */}
       <div>
         <p>
           <Pricing />
